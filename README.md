@@ -1,130 +1,268 @@
-# Digital Bank Churn Analytics
+# European Banking Risk Analytics
 
-## Business Problem
+> *Understanding European banking regulation through data analytics.*
 
-Acquiring new customers is significantly more expensive than retaining existing ones. Financial institutions therefore invest heavily in understanding customer churn and identifying clients at risk of leaving before cancellation occurs.
-
-This project aims to build an end-to-end analytics solution capable of identifying churn patterns and predicting customers with a high probability of leaving a digital bank.
-
----
-
-## Project Objectives
-
-- Understand the main drivers of customer churn.
-- Perform exploratory data analysis (EDA).
-- Engineer meaningful predictive features.
-- Develop and compare machine learning models.
-- Translate analytical findings into business recommendations.
+> ⚠️ **Project Status:** Active development (Version 0.1)
+>
+> This repository is being developed incrementally. Documentation, architecture, datasets and analytical implementations will evolve as the project progresses.
 
 ---
 
-## Business Questions
+# Overview
 
-- Which customer characteristics are most associated with churn?
-- Does customer age influence churn?
-- Does account balance affect customer retention?
-- Are active customers less likely to leave?
-- Which variables contribute the most to churn prediction?
-- Which customers should be targeted by retention campaigns?
+**European Banking Risk Analytics** is an open knowledge project dedicated to studying, reproducing and explaining European banking risk through Data Analytics.
 
----
+Rather than presenting only code, the repository documents the complete analytical journey—from understanding the regulatory framework to selecting public datasets, implementing risk indicators and interpreting their business meaning.
 
-## Dataset
-
-The project uses the **Bank Customer Churn Dataset**, a public dataset commonly used for predictive analytics and machine learning.
-
-The dataset contains customer demographic information, banking products and account activity used to predict customer churn.
+The long-term goal is to create a practical and reproducible reference that connects Financial Services, Risk Management and Data Analytics.
 
 ---
 
-## Technologies
+# Why this repository exists
 
-- Python
-- SQL
-- Pandas
-- NumPy
-- Scikit-Learn
-- XGBoost
-- Matplotlib
-- Git
-- GitHub
+The 2008 Global Financial Crisis fundamentally changed banking regulation around the world.
+
+Frameworks such as Basel III and Basel IV introduced new approaches to capital adequacy, liquidity management and supervisory reporting.
+
+More recently, digital transformation, fintechs and artificial intelligence have created new opportunities and challenges for financial institutions.
+
+This repository explores how Data Analytics can help understand, reproduce and communicate these regulatory concepts through practical implementations using public data.
 
 ---
 
-## Repository Structure
+# Repository Goals
+
+The project has four complementary objectives.
+
+## Learn
+
+Develop a structured understanding of European Banking Risk Analytics.
+
+## Build
+
+Implement reproducible analytical solutions using official public datasets.
+
+## Document
+
+Create a reusable knowledge base that explains both the technical implementation and the business rationale behind each regulatory concept.
+
+## Share
+
+Produce open documentation that may support students, researchers and professionals interested in banking regulation and financial risk.
+
+---
+
+# Guiding Principles
+
+This repository follows a small set of principles.
+
+- Prefer official sources whenever possible.
+- Separate regulatory definitions from personal analysis.
+- Make every analytical result reproducible.
+- Document decisions throughout the project.
+- Build reusable knowledge before reusable code.
+
+---
+
+# Current Scope (Version 0.1)
+
+The first development milestone focuses on:
+
+- Repository architecture
+- Knowledge Base design
+- Understanding the European regulatory framework
+- Identifying official public datasets
+- Defining the analytical methodology
+- Planning the first analytical implementation
+
+Future versions will progressively incorporate regulatory indicators, exploratory analysis, dashboards and quantitative risk models.
+
+---
+
+# Repository Architecture
+
+The repository is organized into five complementary layers.
 
 ```
-digital-bank-churn-analytics/
+README
 
-├── data/
-│   ├── raw/
-│   └── processed/
-│
-├── notebooks/
-│
-├── sql/
-│
-├── src/
-│
-├── dashboard/
-│
-├── reports/
-│   └── figures/
-│
-├── docs/
-│
-├── README.md
-├── requirements.txt
-└── LICENSE
+↓
+
+Knowledge Base
+
+↓
+
+Documentation
+
+↓
+
+Analytics
+
+↓
+
+Dashboards
+```
+
+Each layer has a specific purpose and evolves independently.
+
+---
+
+# Project Organization
+
+```
+knowledge-base/
+    concepts/
+    frameworks/
+    organizations/
+    regulations/
+    datasets/
+    papers/
+    glossary/
+
+docs/
+    chapters/
+    references/
+    methodology/
+
+data/
+    raw/
+    processed/
+    external/
+    sample/
+
+notebooks/
+
+src/
+
+sql/
+
+dashboard/
+
+reports/
 ```
 
 ---
 
-## Project Workflow
+# Research Approach
 
-- Data Collection
-- Data Cleaning
-- Exploratory Data Analysis
-- Feature Engineering
-- Model Development
-- Model Evaluation
-- Business Insights
-- Final Report
+The project follows an iterative analytical workflow.
+
+```
+Business Understanding
+
+↓
+
+Literature Review
+
+↓
+
+Regulatory Framework
+
+↓
+
+Dataset Selection
+
+↓
+
+Data Engineering
+
+↓
+
+Exploratory Data Analysis
+
+↓
+
+Risk Indicators
+
+↓
+
+Visualization
+
+↓
+
+Business Interpretation
+
+↓
+
+Documentation
+```
+
+The methodology will evolve together with the project.
 
 ---
 
-## Expected Deliverables
+# Data Sources
 
-- Exploratory Data Analysis
-- SQL Queries
-- Machine Learning Models
-- Feature Importance Analysis
-- Business Dashboard
-- Business Recommendations
+The project prioritizes official public sources whenever possible.
 
----
+Expected sources include:
 
-## Current Status
+- European Banking Authority (EBA)
+- European Central Bank (ECB)
+- Bank for International Settlements (BIS)
+- European Commission
+- European Systemic Risk Board (ESRB)
 
-🚧 Project in development.
+Each dataset will be documented with:
 
-The first phase focuses on understanding the dataset, defining business questions and performing exploratory data analysis.
-
----
-
-## Future Improvements
-
-- Hyperparameter optimization
-- Explainable AI (SHAP)
-- Model deployment
-- Interactive dashboard
-- Customer segmentation
-- Retention strategy simulation
+- Source
+- URL
+- Version
+- Download date
+- Variables
+- License
+- Known limitations
 
 ---
 
-## Author
+# Current Progress
+
+🚧 **Version 0.1**
+
+Current activities:
+
+- Repository architecture
+- Knowledge Base planning
+- Literature review
+- Regulatory framework study
+- Public dataset evaluation
+
+Project progress is tracked through GitHub Issues.
+
+---
+
+# Long-Term Vision
+
+The long-term objective is to build an open knowledge repository dedicated to European Banking Risk Analytics.
+
+Future developments may include:
+
+- Capital Adequacy
+- Liquidity Risk
+- Credit Risk
+- Market Risk
+- Stress Testing
+- Scenario Analysis
+- Monte Carlo Simulation
+- AI-assisted Regulatory Analytics
+- Financial Document Intelligence using Large Language Models
+
+---
+
+# Contributing
+
+This repository is designed as an evolving knowledge project.
+
+Every chapter, dataset, analytical implementation and conclusion is expected to evolve as new literature, regulatory updates and public data become available.
+
+Constructive discussions and suggestions are always welcome.
+
+---
+
+# Author
 
 **Carolina Rhoden Freitas**
 
-Data Analytics | Financial Services | Machine Learning
+Data Analytics • Financial Services • Risk Analytics
+
+Brazil 🇧🇷 | Ireland 🇮🇪 | United States 🇺🇸
